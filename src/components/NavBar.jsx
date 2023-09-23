@@ -78,7 +78,7 @@ const NavList = styled.div`
         margin-left: 15px;
     }
 
-    @media (max-width: 730px){
+    @media (max-width: 900px){
         display: none;
     }
 `;
@@ -91,13 +91,13 @@ const NavItem = styled.li`
         width: 150px;
     }
 
-    @media (max-width: 730px) {
+    @media (max-width: 900px) {
         display: none;
     }
 `;
 
 const NavItemMobile = styled.li`
-    @media not (max-width: 730px) {
+    @media not (max-width: 900px) {
         display: none;
     }
 `;
@@ -114,7 +114,7 @@ const NavLink = styled.a`
         padding: 1rem 0.25rem;
     }
 
-    @media (max-width: 730px) {
+    @media (max-width: 900px) {
         display: block;
 
         cursor: pointer;
@@ -132,7 +132,7 @@ const MobileMenuIcon = styled.div`
     display: none;
     position: absolute;
     right: 0;
-    margin-right: 4rem;
+    margin-right: 5rem;
 
     button {
         background-color: transparent;
@@ -145,7 +145,7 @@ const MobileMenuIcon = styled.div`
         }
     }
 
-    @media (max-width: 730px) {
+    @media (max-width: 900px) {
         display: block;
         align-self: center;
     }
@@ -168,7 +168,7 @@ const MobileMenu = styled.div`
         padding-top: 1.2rem;
     }
 
-    @media (min-width: 730px){
+    @media (min-width: 900px){
         display: none;
     }
 `;

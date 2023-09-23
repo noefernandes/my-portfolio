@@ -9,9 +9,9 @@ function App() {
       <GlobalStyle />
       <Container>
         <NavBar />
-        <Body>
-
-        </Body>
+        <Welcome>
+          sds
+        </Welcome>
       </Container>
     </div>
   )
@@ -30,13 +30,24 @@ const Container = styled.section`
   width: 100vw;
   height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: #0C1242;
+  overflow: hidden;
 `;
 
-const Body = styled.div`
-  width: 100%;
+const Welcome = styled.div`
+  width: 90%;
   height: auto;
+  background-color: blue;
+`;
+
+const Presentation = styled.div`
+
+`;
+
+const Ilustration = styled.div`
+  
 `;
 
 export default App;
