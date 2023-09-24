@@ -116,7 +116,6 @@ const NavLink = styled.a`
 
     @media (max-width: 900px) {
         display: block;
-
         cursor: pointer;
         background-color: #0666AC;
         color: #FFFFFF;      
