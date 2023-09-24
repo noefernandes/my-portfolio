@@ -153,7 +153,7 @@ const MobileMenuIcon = styled.div`
 
 const MobileMenu = styled.div`
     display: ${(props) => (props.isVisible ? 'block' : 'none')};
-
+    width: 100%;
     color: #0666AC;
 
     ul {
