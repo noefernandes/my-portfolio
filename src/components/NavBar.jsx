@@ -36,9 +36,11 @@ const NavBar = () => {
             </Nav>
             <MobileMenu isVisible={isVisible}>
                 <ul>
-                    <NavItemMobile><NavLink>Teste 1</NavLink></NavItemMobile>
-                    <NavItemMobile><NavLink>Teste 2</NavLink></NavItemMobile>
-                    <NavItemMobile><NavLink>Teste 3</NavLink></NavItemMobile>
+                    <NavItemMobile><NavLink>Projetos</NavLink></NavItemMobile>
+                    <NavItemMobile><NavLink>Habilidades</NavLink></NavItemMobile>
+                    <NavItemMobile><NavLink>Experiências</NavLink></NavItemMobile>
+                    <NavItemMobile><NavLink>Formação</NavLink></NavItemMobile>
+                    <NavItemMobile><NavLink>Contato</NavLink></NavItemMobile>
                 </ul>
             </MobileMenu>
         </>
